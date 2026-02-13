@@ -219,3 +219,9 @@ Message:<br>
 <input type="submit" value="Send Message">
 
 </form>
+
+# What are the problems with this site?
+
+- Not Dynamic
+- Not Interective
+-
