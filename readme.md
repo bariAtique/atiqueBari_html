@@ -1,8 +1,8 @@
-# What is this site about?
+# **_ What is this site about?_**
 
-### Explanation of Your HTML Code (Step-by-Step)
+## <mark> Explanation of Your HTML Code (Step-by-Step)</mark>
 
-1. `<!DOCTYPE html>`
+## 1. `<!DOCTYPE html>`
 
 This tells the browser that the document is written in HTML5.
 
@@ -10,13 +10,13 @@ It ensures modern rendering rules are applied.
 
 Without this, the browser may treat your page as an older HTML version.
 
-2. `<html lang="en">`
+## 2. `<html lang="en">`
 
 This tag wraps the entire HTML page.
 
 lang="en" tells search engines and screen-readers that the content is in English.
 
-3. `<head> Section`
+## 3. `<head> Section`
 
 This part does not display on the page.
 It contains settings and metadata for the browser.
@@ -36,7 +36,7 @@ Without this, your page would look zoomed out on phones.
 Sets the title in the browser tab:
 Atiqul Bari || Your Developer
 
-4. `<body bgcolor="#282828">`
+## 4. `<body bgcolor="#282828">`
 
 The body is where visible content appears.
 
@@ -44,14 +44,14 @@ bgcolor sets the background color of the entire page.
 
 This is an old HTML attribute, but still works.
 
-5. `<center> Tag`
+## 5. `<center> Tag`
 
 This centers everything inside it.
 
 Note: `<center>` is outdated but still works in HTML.
 (Better alternatives exist, but you requested HTML only.)
 
-6. `<table> Structure`
+## 6. `<table> Structure`
 
 You designed the whole page using a table layout.
 Table layout was a common method before CSS became popular.
@@ -68,12 +68,15 @@ bgcolor="#fff" → Sets background white.
 
 📌 Now Let’s Explain Each Section Inside the Table 7. Header Row:
 
-``<tr align="center" bgcolor="f8ab3c">
+```
+<tr align="center" bgcolor="f8ab3c">
 
   <td colspan="3"><font size="5">My Profile</font></td>
-</tr>```
+</tr>
 
-Breakdown:
+```
+
+<mark>Breakdown:</mark>
 
 <tr> → Table Row
 
@@ -86,7 +89,7 @@ font size="5" → Increases text size.
 
 bgcolor="f8ab3c" → Adds background color to the header.
 
-8. Image + Personal Info Row
+## 8. Image + Personal Info Row
 
 This row has:
 
@@ -104,42 +107,49 @@ Right side:
 
 Your name, address, phone numbers, and email.
 
-9. Section Title Row
+## 9. Section Title Row
 
 Again using colspan="3" to create a full-width banner:
 
+```
 <tr align="center">
   <td colspan="3" bgcolor="#f8ab3c"><font size="4">Home Page</font></td>
 </tr>
+```
 
-10. Navigation Menu (Left Column)
+## 10. Navigation Menu (Left Column)
 
-Links pointing to different pages:
+## Links pointing to different pages:
 
-<a href="qualification.html">Qualification</a>
+`<a href="qualification.html">Qualification</a>`
 
-<a> tags are hyperlinks.
+`<a> tags are hyperlinks.`
 
 They help users navigate your website.
 
 You placed them inside the left column (width="200").
 This acts like a sidebar menu.
 
-11. Main Content Area
-<td colspan="2">Main Content</td>
+## 11. Main Content Area
 
-This is where you will display the content of each page.
+`<td colspan="2">Main Content</td>`
 
-12. Footer
-<tr align="center" bgcolor="f8ab3c">
-  <td colspan="3">&copy;Copy right</td>
-</tr>
+## This is where you will display the content of each page.
+
+1.  <mark>Footer</mark>
+
+    ```
+    <tr align="center" bgcolor="f8ab3c">
+        <td colspan="3">&copy;Copy right</td>
+    </tr>
+
+    ```
 
 &copy; → Copyright symbol.
 
 colspan="3" makes it a full-width footer.
 
-⭐ HTML-ONLY IMPROVEMENT SUGGESTIONS (No CSS or JS)
+## ⭐ HTML-ONLY IMPROVEMENT SUGGESTIONS (No CSS or JS)
 
 You asked for enhancements using only pure HTML.
 Here are safe, simple improvements:
